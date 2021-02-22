@@ -1,0 +1,18 @@
+
+.navbar {
+	background-color:rgba(21,31,33,0.5);
+	border-bottom:1px solid #dedede;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #d1d1d1;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
