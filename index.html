@@ -1,53 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/fontawesome.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;700&display=swap" rel="stylesheet">
-
-   
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top">
+          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar">
+            <span class="navbar-toggler-icon">&#9776;</span>  
+        </button>
+          
+        <a class="navbar-brand" href="#"><img src="img/logo-small.png" class="img-fluid"></a>
+          
+        <div class="collapse navbar-collapse" id="navigation-bar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#social">CONNECT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#who">WHO</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">WORK</a></li>
+                <li class="nav-item"><a class="nav-link" href="#why">WHY</a></li>
+                <li class="nav-item"><a class="nav-link" href="#customers">CUSTOMERS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">PRICING</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+            </ul>  
+        </div>
+      </nav>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navigation-bar">
-        <span class="navbar-toggler-icon">&#9776;</span>
-      </button>
-
-      <a href="#" class="navbar-brand"> <img src="img/logo-small.png" class="img-fluid"></a>
-
-      <div class="collapse navbar-collapse" id="navigation-bar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="#social" class="nav-link">CONNECT</a></li>
-          <li class="nav-item"><a href="#who" class="nav-link">WHO</a></li>
-          <li class="nav-item"><a href="#work" class="nav-link">WORK</a></li>
-          <li class="nav-item"><a href="#why" class="nav-link">WHY</a></li>
-          <li class="nav-item"><a href="#customers" class="nav-link">CUSTOMERS</a></li>
-          <li class="nav-item"><a href="#pricing" class="nav-link">PRICING</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
-        </ul>
-      </div>
-    </nav>
-   
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
+      
+       <!-- HEADER -->
+      
+      <section id="header">
+        
+          <div class="container">
+            
+              <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/logo.png" class="img-fluid"/>
+                      <h2>THINGS WORK BETTER IN SPACE</h2>
+                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quibusdam quis, repudiandae reprehenderit doloremque fugiat molestias, corporis voluptas.</p>
+                      <p class="hidden-sm-down d-none d-md-block">Optio quibusdam quis, repudiandae reprehenderit doloremque fugiat molestias, corporis voluptas. Lorem ipsum dolor sit amet, consectetur.</p>
+                  </div>
+                  
+                  <div class="col-md-6 header-right d-none d-md-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quibusdam quis, reprehenderit doloremque fugiat molestias, corporis voluptas.</p>
+                      <form>
+                        <fieldset class="form-group">
+                            <label class="sr-only">Name</label>
+                            <input type="text" class="form-control" placeholder="Your name...">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label class="sr-only">Email</label>
+                            <input type="email" class="form-control" placeholder="Your email...">
+                        </fieldset>
+                        <button type="submit" class="btn btn-outline-info btn-block">sign up</button>
+                      </form>
+                  </div>
+              </div>
+              
+              <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="#social"><i class="fa fa-chevron-down fa-3x"></i></a>
+                    </div>
+              </div>
+          
+          </div>
+          
+      </section>
+      
+    <!-- END HEADER --> 
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>
