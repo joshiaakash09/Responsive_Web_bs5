@@ -1,62 +1,125 @@
-body, html {
-    height: 100%;
+html,
+body {
+    height:100%;
     font-family: 'Alegreya Sans', sans-serif;
 }
 
-@media (max-width: 768px) {
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+
+@media(max-width:768px) {
     #header {
-        text-align: center;
+        text-align:center;
+    }
+    #header img {
+        margin:0 auto;
+    }
+    #social {
+        text-align:center;
+    }
+    #social hr, #who hr {
+        margin:8% auto;
+    }
+    #who {
+        text-align:center;
+    }
+    #who img {
+        margin-top:15%;
     }
 }
 
 .navbar {
-    background-color: rgba(21,31,33,0.5);
-    border-bottom: 1px solid #dedede;
-    font-family: 'Alegreya Sans', sans-serif;
+  background-color:rgba(21, 31, 33, 0.5);
+  border-bottom: 1px solid #dedede;
+  font-family: 'Alegreya Sans', sans-serif;   
 }
 
-.navbar .navbar-nav .nav-link {
-    color: #d1d1d1;
+.navbar .nav .nav-item .nav-link {
+  color: #d1d1d1;
 }
 
-.navbar .navbar-nav .nav-link:hover {
-    color: #fff;
+.navbar .nav .nav-item .nav-link:hover {
+  color: #fff;
 }
 
-.navbar-toggler-icon {
-    color: #fff;
+.navbar-toggler {
+    color:white;
 }
 
 /*HEADER*/
 
 #header {
-    background: url(../img/stars-bg.jpg) center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
+    background:url('../img/stars-bg.jpg') center center no-repeat;
+    background-size:cover;
+    height:100%;
+    color:white;
+    display:flex;
+    align-items:center;
 }
 
 #header img {
-    padding: 0 0 20px 0;
-    width: 80%;
+    padding:0 0 20px;
+    width:80%;
 }
 
 #header .header-right {
-    background-color: rgba(0,0,0,0.5);
-    padding: 30px;
-    border-radius: 10px;
+    background-color:rgba(0,0,0,0.5);
+    padding:30px;
+    border-radius:10px;
 }
 
 #header .fa {
-    margin: 5% 0;
+    margin:5% 0;
 }
 
 #header a .fa {
-    color: #fff;
+    color:#fff;
 }
 
 #header a .fa:hover {
-    color: #ccc;
+    color:#ccc;
+}
+
+/*SOCIAL*/
+
+#social {
+    padding:4.25rem 0;
+}
+
+#social .fa {
+    font-size:1.5em;
+    color:#be2835;
+    border:2px solid #be2835;
+    width:60px;
+    height:60px;
+    border-radius:30%;
+    text-align:center;
+    padding:30% 0;
+    margin-top:10px;
+    transition:all 0.4s ease-in-out;
+}
+
+#social .fa:hover {
+    color:#fff;
+    background:#be2835;
+}
+
+/*WHO*/
+
+#who {
+    padding:5rem 0;
+    background-color:#f6f6f6;
+}
+
+#who .btn-who {
+    background-color:#be2835;
+    color:#fff;
+    width:50%;
+}
+
+#who .btn-who:hover {
+    background-color:transparent;
+    border:1px solid #be2835;
+    color:#be2835;
 }
